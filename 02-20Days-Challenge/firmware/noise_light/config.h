@@ -1,12 +1,28 @@
 // 声光提示装置 · 参数配置
 // 所有阈值与时间参数集中在这里，改行为只改这个文件
+//
+// 注意：引脚按芯片条件编译。经典 ESP32 与 ESP32-C3 的可用 IO 不同，
+// 尤其经典 ESP32 的 GPIO6~11 接 SPI Flash，绝不能用作普通 IO。
 
 #ifndef CONFIG_H
 #define CONFIG_H
 
+// ---------- 芯片识别 ----------
+#if defined(CONFIG_IDF_TARGET_ESP32C3) || defined(ARDUINO_ESP32C3_DEV)
+  #define BOARD_IS_C3 1
+#else
+  #define BOARD_IS_C3 0
+#endif
+
 // ---------- 硬件引脚 ----------
-#define PIN_MIC       A0      // MAX9814 OUT
-#define PIN_LED       8       // WS2812B DIN
+#if BOARD_IS_C3
+  #define PIN_MIC    2      // C3：GPIO2 = ADC1_CH2
+  #define PIN_LED    8      // C3：GPIO8 可做普通 IO
+#else
+  #define PIN_MIC    34     // 经典 ESP32：GPIO34 = ADC1_CH6，仅输入，适合接传感器
+  #define PIN_LED    2      // 经典 ESP32：GPIO2 板载 LED，安全
+#endif
+
 #define LED_COUNT     30      // 灯带灯珠数
 
 // ---------- 采样 ----------
