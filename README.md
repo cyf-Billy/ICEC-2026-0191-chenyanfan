@@ -52,7 +52,7 @@
 
 ```text
 01-Field-Discovery/      阶段一报告、现场照片、raw_data/ 原始数据
-02-20Days-Challenge/     阶段二源码、process_logs/ 连续日志、iterations/ 迭代记录
+02-20Days-Challenge/     阶段二：firmware/ 源码、process_logs/ 连续日志、iterations/ 迭代记录
 03-AI-Collaboration/     关键 AI 提问与排障对话记录
 ```
 
