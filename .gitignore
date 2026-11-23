@@ -1,0 +1,19 @@
+﻿# 系统与临时文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
+*.tmp
+
+# 编辑器
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 注意：raw_data/ 与 process_logs/ 里的 CSV、照片、日志是考核证据，
+# 千万不要写进 .gitignore，也不要事后补提交。
