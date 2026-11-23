@@ -23,6 +23,8 @@
 
 两份报告：`01-Field-Discovery/报告-02-手机多工况发热与掉电实测.md`、`01-Field-Discovery/报告-06-校园昼夜噪声地图.md`
 
+**为什么选这两个**：一个测**设备自身的能耗**（变量可控、室内能做完），一个测**环境噪声**（要跑点位、但一天内能完成）。共同点是——**结论都可能被数据推翻**：02 的预设是"边充边用最伤"，06 的预设是"晚上更安静"，而 06 的实测已经证明后者只对了一半（昼夜只差 0.5 dB）。选题时的原则是：宁可要一个能被证伪的小题目，不要一个只能复述常识的大题目。
+
 ### 阶段二 工坊开放式项目（8 选 1，60 分）
 
 - **项目编号与名称：项目五 旧电器拆解**
@@ -73,10 +75,46 @@
 
 
 ```text
-01-Field-Discovery/      阶段一报告、现场照片、raw_data/ 原始数据
-02-20Days-Challenge/     阶段二：firmware/ 源码、process_logs/ 连续日志、iterations/ 迭代记录
-03-AI-Collaboration/     关键 AI 提问与排障对话记录
+ICEC-2026-0191-chenyanfan/
+├─ 01-Field-Discovery/
+│  ├─ raw_data/
+│  ├─ 报告-02-手机多工况发热与掉电实测.md
+│  ├─ 报告-06-校园昼夜噪声地图.md
+│  ├─ 报告模板.md
+│  ├─ 采样操作卡-2026-11-24.md
+│  ├─ 采样操作卡-课题02.md
+│  └─ 采样记录表-2026-11-24.md
+├─ 02-20Days-Challenge/
+│  ├─ firmware/
+│  ├─ iterations/
+│  └─ process_logs/
+├─ 03-AI-Collaboration/
+│  ├─ 2026-11-23-建仓与推送排障.md
+│  ├─ 2026-11-24-AI判断与求证.md
+│  ├─ 2026-11-24-Arduino环境排障.md
+│  └─ 对话记录模板.md
+├─ .gitignore
+└─ README.md
 ```
+
+### 关键文件在哪（按你要找的东西）
+
+| 想找 | 位置 |
+| --- | --- |
+| 阶段一：噪声实测报告 | `01-Field-Discovery/报告-06-校园昼夜噪声地图.md` |
+| 阶段一：手机发热报告（待采样）| `01-Field-Discovery/报告-02-手机多工况发热与掉电实测.md` |
+| 阶段一：原始数据与证据照 | `01-Field-Discovery/raw_data/`（`photo-06-01` ~ `photo-06-20`）|
+| 阶段一：采样操作卡 | `01-Field-Discovery/采样操作卡-*.md`、`采样记录表-*.md` |
+| 阶段二：拆解记录与 BOM | `02-20Days-Challenge/iterations/项目05-00-拆解记录与BOM.md` |
+| 阶段二：丝印溯源 | `02-20Days-Challenge/iterations/项目05-01-丝印溯源.md` |
+| 阶段二：供电与控制框图 | `02-20Days-Challenge/iterations/项目05-02-供电与控制框图.md` |
+| 阶段二：改造方案 | `02-20Days-Challenge/iterations/项目05-03-智能化升级改造方案.md` |
+| 阶段二：拆解照片 | `02-20Days-Challenge/iterations/照片-项目05/`（17 张）|
+| 阶段二：物料采购记录 | `02-20Days-Challenge/iterations/材料采购记录.md` |
+| 阶段二：声光装置固件 | `02-20Days-Challenge/firmware/noise_light/` |
+| 阶段二：逐日过程日志 | `02-20Days-Challenge/process_logs/`（12 个日期）|
+| AI 协作与排障复盘 | `03-AI-Collaboration/`（3 篇）|
+
 
 ## 四、进度记录（每次 git commit 前更新一行）
 
