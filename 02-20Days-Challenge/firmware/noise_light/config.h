@@ -51,8 +51,10 @@
 #define COMMIT_DEBOUNCE   100     // 状态提交去抖，防 60ms 过渡态闪烁
 
 // ---------- 基线学习 ----------
-#define BASELINE_WINDOW   30      // 30 个 1 分钟中位数
-#define BASELINE_PERCENTILE 0.20f // 取 20 分位，抗偶发长噪声污染
+#define BASELINE_WINDOW        30      // 环形缓冲：30 个"分钟均值"
+#define BASELINE_MIN_MINUTES   3       // 至少攒够 3 分钟才启用基线判档
+#define BASELINE_PERCENTILE 0.20f     // 取 20 分位，抗偶发长噪声污染
+#define BASELINE_MINUTE_MS     60000UL // 一个"分钟均值"的真实时长
 
 // ---------- 开机 ----------
 #define BOOT_QUIET_MS     10000   // 前 10 秒只学基线，不判档
