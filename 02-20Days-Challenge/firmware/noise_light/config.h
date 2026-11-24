@@ -23,7 +23,52 @@
   #define PIN_LED    2      // 经典 ESP32：GPIO2 板载 LED，安全
 #endif
 
+// ---------- 灯带（WS2812B）----------
 #define LED_COUNT     30      // 灯带灯珠数
+#define LED_BRIGHTNESS 40     // 0-255，全局亮度上限（见下方功率预算）
+
+// ---------- 功率预算（上机前必看）----------
+// 单颗 WS2812B 全白满亮约 60 mA；PWM 亮度近似线性缩放。
+//   本配置：30 颗 × 60 mA × (40/255) ≈ 282 mA
+//   + ESP32-CAM 自身约 150~250 mA（摄像头不初始化）
+//   ≈ 总计 430~530 mA @ 5V
+//
+// 这已经接近 USB-TTL 转接座和 AMS1117 线性稳压器的余量上限。
+// 因此提供两档安全档位，按实际供电能力在编译时二选一：
+//
+//   POWER_TIER 1 = USB-TTL 转接座供电（最保守）
+//       12 颗 / 亮度 30  → 约 85 mA
+//   POWER_TIER 2 = 独立 5V 电源给灯带（推荐，共地）
+//       30 颗 / 亮度 40  → 约 282 mA
+//   POWER_TIER 3 = 大电流 5V 电源（≥2A）
+//       30 颗 / 亮度 120 → 约 847 mA
+//
+// 默认用 TIER 1，保证"第一次上机不会因电流不足而复位/闪烁"。
+#define POWER_TIER    1
+
+#if POWER_TIER == 1
+  #undef  LED_COUNT
+  #define LED_COUNT      12
+  #undef  LED_BRIGHTNESS
+  #define LED_BRIGHTNESS 30
+#elif POWER_TIER == 2
+  #undef  LED_COUNT
+  #define LED_COUNT      30
+  #undef  LED_BRIGHTNESS
+  #define LED_BRIGHTNESS 40
+#elif POWER_TIER == 3
+  #undef  LED_COUNT
+  #define LED_COUNT      30
+  #undef  LED_BRIGHTNESS
+  #define LED_BRIGHTNESS 120
+#endif
+
+// 编译期功率告警（预处理器只支持整数，故用整数 mA 估算）
+#define WS2812_MA_PER_LED  60                    // 每颗全白满亮约 60 mA
+#define LED_BUDGET_MA      ((LED_COUNT * WS2812_MA_PER_LED * LED_BRIGHTNESS) / 255)
+#if LED_BUDGET_MA > 900
+  #warning "LED power budget > 900 mA: use external 5V supply and common ground!"
+#endif
 
 // ---------- 采样 ----------
 #define SAMPLE_RATE       8000    // Hz
@@ -64,7 +109,7 @@
 #define ADC_FAIL_RATIO    0.005f  // 低于 0.5% 或高于 99.5% 视为贴底/贴顶
 
 // ---------- 灯效 ----------
-#define LED_BRIGHTNESS    60      // 0-255，限制亮度避免扰民
+// LED_BRIGHTNESS 已在上方「灯带」小节按 POWER_TIER 定义，此处不再重复定义
 #define BLINK_MAX_HZ      2.0f    // 闪烁频率上限，超过会引起不适
 
 // ---------- 状态 ----------
