@@ -107,7 +107,7 @@ ICEC-2026-0191-chenyanfan/
 | 阶段一：采样操作卡 | `01-Field-Discovery/采样操作卡-*.md`、`采样记录表-*.md` |
 | 阶段二：拆解记录与 BOM | `02-20Days-Challenge/iterations/项目05-00-拆解记录与BOM.md` |
 | 阶段二：丝印溯源 | `02-20Days-Challenge/iterations/项目05-01-丝印溯源.md` |
-| 阶段二：供电与控制框图 | `02-20Days-Challenge/iterations/项目05-02-供电与控制框图.md` |
+| 阶段二：供电与控制拓扑 | `02-20Days-Challenge/iterations/项目05-00-拆解记录与BOM.md` 第 5 节 |
 | 阶段二：改造方案 | `02-20Days-Challenge/iterations/项目05-03-智能化升级改造方案.md` |
 | 阶段二：拆解照片 | `02-20Days-Challenge/iterations/照片-项目05/`（17 张）|
 | 阶段二：物料采购记录 | `02-20Days-Challenge/iterations/材料采购记录.md` |
