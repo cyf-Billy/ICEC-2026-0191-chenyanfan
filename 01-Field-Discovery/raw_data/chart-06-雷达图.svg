@@ -1,60 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="940" height="880" font-family="Microsoft YaHei, PingFang SC, sans-serif">
-<rect width="940" height="880" fill="#ffffff"/>
-<text x="470.0" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#111">课题06 校园噪声雷达图：5 个指定点位 · 均值 vs 峰值</text>
-<text x="470.0" y="60" text-anchor="middle" font-size="12.5" fill="#6b7280">蓝=该点位水印读数均值　红=最大值（峰值）　半径区间 40–90 dB</text>
-<text x="470.0" y="80" text-anchor="middle" font-size="12" fill="#9ca3af">读法：两个多边形越靠近外圈越吵；红蓝之间的间距代表"波动幅度"</text>
-<polygon points="470.0,420.0 470.0,420.0 470.0,420.0 470.0,420.0 470.0,420.0" fill="none" stroke="#e5e7eb" stroke-width="1"/>
-<text x="475.0" y="433.0" font-size="10" fill="#9ca3af">40</text>
-<polygon points="470.0,370.0 517.6,404.5 499.4,460.5 440.6,460.5 422.4,404.5" fill="none" stroke="#e5e7eb" stroke-width="1"/>
-<text x="475.0" y="383.0" font-size="10" fill="#9ca3af">50</text>
-<polygon points="470.0,320.0 565.1,389.1 528.8,500.9 411.2,500.9 374.9,389.1" fill="none" stroke="#e5e7eb" stroke-width="1"/>
-<text x="475.0" y="333.0" font-size="10" fill="#9ca3af">60</text>
-<polygon points="470.0,270.0 612.7,373.6 558.2,541.4 381.8,541.4 327.3,373.6" fill="none" stroke="#e5e7eb" stroke-width="1"/>
-<text x="475.0" y="283.0" font-size="10" fill="#9ca3af">70</text>
-<polygon points="470.0,220.0 660.2,358.2 587.6,581.8 352.4,581.8 279.8,358.2" fill="none" stroke="#e5e7eb" stroke-width="1"/>
-<text x="475.0" y="233.0" font-size="10" fill="#9ca3af">80</text>
-<polygon points="470.0,170.0 707.8,342.7 616.9,622.3 323.1,622.3 232.2,342.7" fill="none" stroke="#e5e7eb" stroke-width="1"/>
-<text x="475.0" y="183.0" font-size="10" fill="#9ca3af">90</text>
-<line x1="470.0" y1="420" x2="470.0" y2="170.0" stroke="#e5e7eb" stroke-width="1"/>
-<line x1="470.0" y1="420" x2="707.8" y2="342.7" stroke="#e5e7eb" stroke-width="1"/>
-<line x1="470.0" y1="420" x2="616.9" y2="622.3" stroke="#e5e7eb" stroke-width="1"/>
-<line x1="470.0" y1="420" x2="323.1" y2="622.3" stroke="#e5e7eb" stroke-width="1"/>
-<line x1="470.0" y1="420" x2="232.2" y2="342.7" stroke="#e5e7eb" stroke-width="1"/>
-<polygon points="470.0,205.0 579.4,384.5 590.5,585.8 399.5,517.1 265.5,353.6" fill="#dc2626" fill-opacity="0.1" stroke="#dc2626" stroke-width="2" stroke-linejoin="round"/>
-<polygon points="470.0,320.0 546.1,395.3 525.3,496.0 423.0,484.7 412.9,401.5" fill="#1d4ed8" fill-opacity="0.16" stroke="#1d4ed8" stroke-width="2.5" stroke-linejoin="round"/>
-<text x="470.0" y="120.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">图书馆</text>
-<text x="470.0" y="139.0" text-anchor="middle" font-size="12" fill="#1d4ed8">均值 60</text>
-<text x="470.0" y="155.0" text-anchor="middle" font-size="12" fill="#dc2626">峰值 83</text>
-<text x="470.0" y="171.0" text-anchor="middle" font-size="10.5" fill="#9ca3af">11-24 13:09</text>
-<text x="755.3" y="327.3" text-anchor="start" font-size="14" font-weight="bold" fill="#111">食堂（天香园）</text>
-<text x="755.3" y="346.3" text-anchor="start" font-size="12" fill="#1d4ed8">均值 56</text>
-<text x="755.3" y="362.3" text-anchor="start" font-size="12" fill="#dc2626">峰值 63</text>
-<text x="755.3" y="378.3" text-anchor="start" font-size="10.5" fill="#9ca3af">11-22 19:09</text>
-<text x="646.3" y="662.7" text-anchor="start" font-size="14" font-weight="bold" fill="#111">主干道（行知北路）</text>
-<text x="646.3" y="681.7" text-anchor="start" font-size="12" fill="#1d4ed8">均值 58.8</text>
-<text x="646.3" y="697.7" text-anchor="start" font-size="12" fill="#dc2626">峰值 81</text>
-<text x="646.3" y="713.7" text-anchor="start" font-size="10.5" fill="#9ca3af">11-22/24 共 5 条均值</text>
-<text x="293.7" y="662.7" text-anchor="end" font-size="14" font-weight="bold" fill="#111">运动场</text>
-<text x="293.7" y="681.7" text-anchor="end" font-size="12" fill="#1d4ed8">均值 56</text>
-<text x="293.7" y="697.7" text-anchor="end" font-size="12" fill="#dc2626">峰值 64</text>
-<text x="293.7" y="713.7" text-anchor="end" font-size="10.5" fill="#9ca3af">11-24 10:43</text>
-<text x="184.7" y="327.3" text-anchor="end" font-size="14" font-weight="bold" fill="#111">实训室走廊</text>
-<text x="184.7" y="346.3" text-anchor="end" font-size="12" fill="#1d4ed8">均值 52</text>
-<text x="184.7" y="362.3" text-anchor="end" font-size="12" fill="#dc2626">峰值 83</text>
-<text x="184.7" y="378.3" text-anchor="end" font-size="10.5" fill="#9ca3af">11-24 13:11</text>
-<circle cx="470.0" cy="320.0" r="4.5" fill="#1d4ed8" stroke="#fff" stroke-width="1.5"/>
-<circle cx="470.0" cy="205.0" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
-<circle cx="546.1" cy="395.3" r="4.5" fill="#1d4ed8" stroke="#fff" stroke-width="1.5"/>
-<circle cx="579.4" cy="384.5" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
-<circle cx="525.3" cy="496.0" r="4.5" fill="#1d4ed8" stroke="#fff" stroke-width="1.5"/>
-<circle cx="590.5" cy="585.8" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
-<circle cx="423.0" cy="484.7" r="4.5" fill="#1d4ed8" stroke="#fff" stroke-width="1.5"/>
-<circle cx="399.5" cy="517.1" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
-<circle cx="412.9" cy="401.5" r="4.5" fill="#1d4ed8" stroke="#fff" stroke-width="1.5"/>
-<circle cx="265.5" cy="353.6" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
-<rect x="580" y="828" width="13" height="13" fill="#1d4ed8" fill-opacity="0.16" stroke="#1d4ed8" stroke-width="2"/>
-<text x="600" y="839" font-size="12.5" fill="#374151">均值</text>
-<rect x="690" y="828" width="13" height="13" fill="#dc2626" fill-opacity="0.10" stroke="#dc2626" stroke-width="2"/>
-<text x="710" y="839" font-size="12.5" fill="#374151">峰值</text>
-<text x="470.0" y="866" text-anchor="middle" font-size="13" fill="#111" font-weight="bold">结论：五个点位的均值只差 8.8 dB，但峰值差距达 27 dB——治理要看峰值，不是均值</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="960" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+<rect width="960" height="960" fill="#ffffff"/>
+<text x="480.0" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#111">课题06 校园噪声雷达图：5 个指定点位 · 均值 vs 峰值</text>
+<text x="480.0" y="60" text-anchor="middle" font-size="12.5" fill="#6b7280">蓝=该点位水印读数均值　红=最大值（峰值）　半径区间 40–90 dB</text>
+<text x="480.0" y="80" text-anchor="middle" font-size="12" fill="#9ca3af">读法：两个多边形越靠近外圈越吵；红蓝之间的间距代表"波动幅度"</text>
+<polygon points="480.0,420.0 480.0,420.0 480.0,420.0 480.0,420.0 480.0,420.0" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+<text x="485.0" y="433.0" font-size="10" fill="#9ca3af">40</text>
+<polygon points="480.0,370.0 527.6,404.5 509.4,460.5 450.6,460.5 432.4,404.5" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+<text x="485.0" y="383.0" font-size="10" fill="#9ca3af">50</text>
+<polygon points="480.0,320.0 575.1,389.1 538.8,500.9 421.2,500.9 384.9,389.1" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+<text x="485.0" y="333.0" font-size="10" fill="#9ca3af">60</text>
+<polygon points="480.0,270.0 622.7,373.6 568.2,541.4 391.8,541.4 337.3,373.6" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+<text x="485.0" y="283.0" font-size="10" fill="#9ca3af">70</text>
+<polygon points="480.0,220.0 670.2,358.2 597.6,581.8 362.4,581.8 289.8,358.2" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+<text x="485.0" y="233.0" font-size="10" fill="#9ca3af">80</text>
+<polygon points="480.0,170.0 717.8,342.7 626.9,622.3 333.1,622.3 242.2,342.7" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+<text x="485.0" y="183.0" font-size="10" fill="#9ca3af">90</text>
+<line x1="480.0" y1="420" x2="480.0" y2="170.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="480.0" y1="420" x2="717.8" y2="342.7" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="480.0" y1="420" x2="626.9" y2="622.3" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="480.0" y1="420" x2="333.1" y2="622.3" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="480.0" y1="420" x2="242.2" y2="342.7" stroke="#e5e7eb" stroke-width="1"/>
+<polygon points="480.0,205.0 589.4,384.5 600.5,585.8 409.5,517.1 275.5,353.6" fill="#dc2626" fill-opacity="0.1" stroke="#dc2626" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="480.0,320.0 556.1,395.3 535.3,496.0 433.0,484.7 422.9,401.5" fill="#1d4ed8" fill-opacity="0.16" stroke="#1d4ed8" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="480.0" y="120.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">图书馆</text>
+<text x="480.0" y="135.0" text-anchor="middle" font-size="11" font-weight="normal" fill="#6b7280">午间·入口/阅览区</text>
+<text x="480.0" y="155.0" text-anchor="middle" font-size="12" fill="#1d4ed8">均值 60</text>
+<text x="480.0" y="171.0" text-anchor="middle" font-size="12" fill="#dc2626">峰值 83</text>
+<text x="480.0" y="186.0" text-anchor="middle" font-size="10.5" fill="#9ca3af">11-24 13:09</text>
+<text x="765.3" y="327.3" text-anchor="start" font-size="14" font-weight="bold" fill="#111">食堂（天香园）</text>
+<text x="765.3" y="342.3" text-anchor="start" font-size="11" font-weight="normal" fill="#6b7280">晚餐·人少</text>
+<text x="765.3" y="362.3" text-anchor="start" font-size="12" fill="#1d4ed8">均值 56</text>
+<text x="765.3" y="378.3" text-anchor="start" font-size="12" fill="#dc2626">峰值 63</text>
+<text x="765.3" y="393.3" text-anchor="start" font-size="10.5" fill="#9ca3af">11-22 19:09</text>
+<text x="656.3" y="662.7" text-anchor="start" font-size="14" font-weight="bold" fill="#111">主干道（行知北路）</text>
+<text x="656.3" y="677.7" text-anchor="start" font-size="11" font-weight="normal" fill="#6b7280">全天 5 条均值</text>
+<text x="656.3" y="697.7" text-anchor="start" font-size="12" fill="#1d4ed8">均值 58.8</text>
+<text x="656.3" y="713.7" text-anchor="start" font-size="12" fill="#dc2626">峰值 81</text>
+<text x="656.3" y="728.7" text-anchor="start" font-size="10.5" fill="#9ca3af">11-22/24</text>
+<text x="303.7" y="662.7" text-anchor="end" font-size="14" font-weight="bold" fill="#111">运动场</text>
+<text x="303.7" y="677.7" text-anchor="end" font-size="11" font-weight="normal" fill="#6b7280">上午·课间</text>
+<text x="303.7" y="697.7" text-anchor="end" font-size="12" fill="#1d4ed8">均值 56</text>
+<text x="303.7" y="713.7" text-anchor="end" font-size="12" fill="#dc2626">峰值 64</text>
+<text x="303.7" y="728.7" text-anchor="end" font-size="10.5" fill="#9ca3af">11-24 10:43</text>
+<text x="194.7" y="327.3" text-anchor="end" font-size="14" font-weight="bold" fill="#111">实训室走廊</text>
+<text x="194.7" y="342.3" text-anchor="end" font-size="11" font-weight="normal" fill="#6b7280">午间</text>
+<text x="194.7" y="362.3" text-anchor="end" font-size="12" fill="#1d4ed8">均值 52</text>
+<text x="194.7" y="378.3" text-anchor="end" font-size="12" fill="#dc2626">峰值 83</text>
+<text x="194.7" y="393.3" text-anchor="end" font-size="10.5" fill="#9ca3af">11-24 13:11</text>
+<circle cx="480.0" cy="320.0" r="4.5" fill="#1d4ed8" stroke="#fff" stroke-width="1.5"/>
+<circle cx="480.0" cy="205.0" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
+<circle cx="556.1" cy="395.3" r="4.5" fill="#1d4ed8" stroke="#fff" stroke-width="1.5"/>
+<circle cx="589.4" cy="384.5" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
+<circle cx="535.3" cy="496.0" r="4.5" fill="#1d4ed8" stroke="#fff" stroke-width="1.5"/>
+<circle cx="600.5" cy="585.8" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
+<circle cx="433.0" cy="484.7" r="4.5" fill="#1d4ed8" stroke="#fff" stroke-width="1.5"/>
+<circle cx="409.5" cy="517.1" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
+<circle cx="422.9" cy="401.5" r="4.5" fill="#1d4ed8" stroke="#fff" stroke-width="1.5"/>
+<circle cx="275.5" cy="353.6" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
+<rect x="600" y="908" width="13" height="13" fill="#1d4ed8" fill-opacity="0.16" stroke="#1d4ed8" stroke-width="2"/>
+<text x="620" y="919" font-size="12.5" fill="#374151">均值</text>
+<rect x="710" y="908" width="13" height="13" fill="#dc2626" fill-opacity="0.10" stroke="#dc2626" stroke-width="2"/>
+<text x="730" y="919" font-size="12.5" fill="#374151">峰值</text>
+<text x="480.0" y="832" text-anchor="middle" font-size="12.5" fill="#111" font-weight="bold">结论：五个点位均值只差 8.8 dB，峰值却差 27 dB——治理要看峰值，不是均值</text>
+<text x="480.0" y="854" text-anchor="middle" font-size="11.5" fill="#b45309">⚠ 取值局限 1：食堂 56 dB 是「晚餐人少」时段，本人现场经验平时约 70 dB —— 该点为明显低估</text>
+<text x="480.0" y="874" text-anchor="middle" font-size="11.5" fill="#b45309">⚠ 取值局限 2：图书馆 60 dB 是午间入口/阅览区；书架深处实测仅 37.3 dB —— 馆内差异超 20 dB，单点不能代表整馆</text>
+<text x="480.0" y="894" text-anchor="middle" font-size="11.5" fill="#9ca3af">因此本图用于「同口径相对比较」，不用于「代表性均值」；改进办法见报告第 6 节</text>
 </svg>
