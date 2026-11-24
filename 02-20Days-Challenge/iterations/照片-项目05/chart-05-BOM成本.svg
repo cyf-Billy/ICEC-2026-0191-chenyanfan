@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="400" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+<rect width="820" height="400" fill="#ffffff"/>
+<text x="410.0" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#111">项目五 BOM 成本结构（合计约 11.6 元）</text>
+<text x="410.0" y="52" text-anchor="middle" font-size="12" fill="#666">零售单件核价；批发价更低。电机占 35%，是单项最大成本——这解释了为什么这类产品的可靠性短板在电机</text>
+<text x="138" y="106" text-anchor="end" font-size="12.5" fill="#374151">电机</text>
+<rect x="150" y="92" width="520.0" height="20" fill="#dc2626" rx="3"/>
+<text x="680.0" y="106" font-size="12" font-weight="bold" fill="#111">4 元 · 34%</text>
+<text x="138" y="146" text-anchor="end" font-size="12.5" fill="#374151">14500 电池</text>
+<rect x="150" y="132" width="325.0" height="20" fill="#f59e0b" rx="3"/>
+<text x="485.0" y="146" font-size="12" font-weight="bold" fill="#111">2.5 元 · 22%</text>
+<text x="138" y="186" text-anchor="end" font-size="12.5" fill="#374151">主板 PCB</text>
+<rect x="150" y="172" width="260.0" height="20" fill="#2563eb" rx="3"/>
+<text x="420.0" y="186" font-size="12" font-weight="bold" fill="#111">2 元 · 17%</text>
+<text x="138" y="226" text-anchor="end" font-size="12.5" fill="#374151">外壳+叶轮</text>
+<rect x="150" y="212" width="260.0" height="20" fill="#0891b2" rx="3"/>
+<text x="420.0" y="226" font-size="12" font-weight="bold" fill="#111">2 元 · 17%</text>
+<text x="138" y="266" text-anchor="end" font-size="12.5" fill="#374151">数码管</text>
+<rect x="150" y="252" width="130.0" height="20" fill="#7c3aed" rx="3"/>
+<text x="290.0" y="266" font-size="12" font-weight="bold" fill="#111">1 元 · 9%</text>
+<text x="138" y="306" text-anchor="end" font-size="12.5" fill="#374151">驱动 MOS</text>
+<rect x="150" y="292" width="13.0" height="20" fill="#64748b" rx="3"/>
+<text x="173.0" y="306" font-size="12" font-weight="bold" fill="#111">0.1 元 · 1%</text>
+<line x1="150" y1="342" x2="670" y2="342" stroke="#e5e7eb"/>
+<text x="138" y="364" text-anchor="end" font-size="12.5" font-weight="bold" fill="#111">市场售价</text>
+<rect x="150" y="350" width="218" height="20" fill="#c7d2fe" rx="3"/>
+<rect x="368" y="350" width="302" height="20" fill="#e0e7ff" rx="3"/>
+<text x="158" y="364" font-size="11.5" fill="#3730a3">15 元</text>
+<text x="662" y="364" text-anchor="end" font-size="11.5" fill="#3730a3">30 元</text>
+<text x="410.0" y="388" text-anchor="middle" font-size="11.5" fill="#4b5563">→ 毛利率 23%（卖 15 元）~ 62%（卖 30 元）｜利润不在硬件，在渠道与走量</text>
+</svg>

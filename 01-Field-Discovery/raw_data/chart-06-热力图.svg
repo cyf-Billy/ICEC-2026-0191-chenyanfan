@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="610" font-family="Microsoft YaHei, PingFang SC, sans-serif">
+<rect width="830" height="610" fill="#ffffff"/>
+<text x="415.0" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#111">课题06 声学热力图：点位 × 时段</text>
+<text x="415.0" y="52" text-anchor="middle" font-size="12" fill="#666">色块为该单元格的水印读数均值（dB）；空白=该时段未采。一眼看出：午间能工楼最红，夜间培训基地最浅</text>
+<text x="415.0" y="68" text-anchor="middle" font-size="11" fill="#9ca3af">点位的"功能分区"标注在括号内——决定噪声的是功能与活动，不是时段（见结论二）</text>
+<text x="265.0" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">11-22 昼</text>
+<text x="415.0" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">11-22 夜</text>
+<text x="565.0" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">11-24 上午</text>
+<text x="715.0" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">11-24 午间</text>
+<text x="178" y="143.0" text-anchor="end" font-size="12" fill="#374151">能工楼（教学）</text>
+<rect x="192" y="122" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="342" y="122" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="492" y="122" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="642" y="122" width="146" height="34" fill="rgb(195,138,121)" rx="4" stroke="#e5e7eb"/>
+<text x="715.0" y="144.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">65</text>
+<text x="178" y="181.0" text-anchor="end" font-size="12" fill="#374151">宿舍楼（生活）</text>
+<rect x="192" y="160" width="146" height="34" fill="rgb(189,126,108)" rx="4" stroke="#e5e7eb"/>
+<text x="265.0" y="182.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">67</text>
+<rect x="342" y="160" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="492" y="160" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="642" y="160" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<text x="178" y="219.0" text-anchor="end" font-size="12" fill="#374151">行知北路（道路）</text>
+<rect x="192" y="198" width="146" height="34" fill="rgb(219,185,175)" rx="4" stroke="#e5e7eb"/>
+<text x="265.0" y="220.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">57</text>
+<rect x="342" y="198" width="146" height="34" fill="rgb(217,182,171)" rx="4" stroke="#e5e7eb"/>
+<text x="415.0" y="220.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">57.5</text>
+<rect x="492" y="198" width="146" height="34" fill="rgb(199,147,131)" rx="4" stroke="#e5e7eb"/>
+<text x="565.0" y="220.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">63.5</text>
+<rect x="642" y="198" width="146" height="34" fill="rgb(219,185,175)" rx="4" stroke="#e5e7eb"/>
+<text x="715.0" y="220.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">57</text>
+<text x="178" y="257.0" text-anchor="end" font-size="12" fill="#374151">培训基地（室内）</text>
+<rect x="192" y="236" width="146" height="34" fill="rgb(225,196,188)" rx="4" stroke="#e5e7eb"/>
+<text x="265.0" y="258.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">55</text>
+<rect x="342" y="236" width="146" height="34" fill="rgb(234,214,208)" rx="4" stroke="#e5e7eb"/>
+<text x="415.0" y="258.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">52</text>
+<rect x="492" y="236" width="146" height="34" fill="rgb(216,179,168)" rx="4" stroke="#e5e7eb"/>
+<text x="565.0" y="258.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">58</text>
+<rect x="642" y="236" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<text x="178" y="295.0" text-anchor="end" font-size="12" fill="#374151">教室 431（教学）</text>
+<rect x="192" y="274" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="342" y="274" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="492" y="274" width="146" height="34" fill="rgb(222,190,181)" rx="4" stroke="#e5e7eb"/>
+<text x="565.0" y="296.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">56</text>
+<rect x="642" y="274" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<text x="178" y="333.0" text-anchor="end" font-size="12" fill="#374151">图书馆（学习）</text>
+<rect x="192" y="312" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="342" y="312" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="492" y="312" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="642" y="312" width="146" height="34" fill="rgb(210,167,155)" rx="4" stroke="#e5e7eb"/>
+<text x="715.0" y="334.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">60</text>
+<text x="178" y="371.0" text-anchor="end" font-size="12" fill="#374151">天香园饭堂（就餐）</text>
+<rect x="192" y="350" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="342" y="350" width="146" height="34" fill="rgb(222,190,181)" rx="4" stroke="#e5e7eb"/>
+<text x="415.0" y="372.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">56</text>
+<rect x="492" y="350" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="642" y="350" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<text x="178" y="409.0" text-anchor="end" font-size="12" fill="#374151">实训室（学习）</text>
+<rect x="192" y="388" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="342" y="388" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="492" y="388" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="642" y="388" width="146" height="34" fill="rgb(234,214,208)" rx="4" stroke="#e5e7eb"/>
+<text x="715.0" y="410.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">52</text>
+<text x="178" y="447.0" text-anchor="end" font-size="12" fill="#374151">H2 栋（教学）</text>
+<rect x="192" y="426" width="146" height="34" fill="rgb(240,225,221)" rx="4" stroke="#e5e7eb"/>
+<text x="265.0" y="448.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">50</text>
+<rect x="342" y="426" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="492" y="426" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="642" y="426" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<text x="178" y="485.0" text-anchor="end" font-size="12" fill="#374151">园区户外（通行）</text>
+<rect x="192" y="464" width="146" height="34" fill="rgb(240,225,221)" rx="4" stroke="#e5e7eb"/>
+<text x="265.0" y="486.0" text-anchor="middle" font-size="12" font-weight="bold" fill="#1f2937">50</text>
+<rect x="342" y="464" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="492" y="464" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<rect x="642" y="464" width="146" height="34" fill="#f8fafc" rx="4" stroke="#e5e7eb"/>
+<text x="190" y="558" font-size="11" fill="#6b7280">低</text>
+<rect x="212" y="548" width="26" height="14" fill="rgb(255,255,255)"/>
+<rect x="238" y="548" width="26" height="14" fill="rgb(246,237,235)"/>
+<rect x="264" y="548" width="26" height="14" fill="rgb(237,220,215)"/>
+<rect x="290" y="548" width="26" height="14" fill="rgb(228,202,195)"/>
+<rect x="316" y="548" width="26" height="14" fill="rgb(219,185,175)"/>
+<rect x="342" y="548" width="26" height="14" fill="rgb(210,167,155)"/>
+<rect x="368" y="548" width="26" height="14" fill="rgb(201,150,135)"/>
+<rect x="394" y="548" width="26" height="14" fill="rgb(192,132,115)"/>
+<rect x="420" y="548" width="26" height="14" fill="rgb(183,115,95)"/>
+<rect x="446" y="548" width="26" height="14" fill="rgb(174,97,75)"/>
+<text x="476" y="558" font-size="11" fill="#6b7280">高（dB）</text>
+<text x="212" y="582" font-size="10.5" fill="#9ca3af">色标区间 45–75 dB；超过 75 一律按最深色显示</text>
+</svg>
